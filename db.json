@@ -21,40 +21,10 @@
   ],
   "Cities": [
     {
-      "country": "Botswana",
-      "city": "Francistown",
-      "id": 1,
-      "population": "7815693121"
-    },
-    {
-      "country": "Indonesia",
-      "city": "Girsereng",
-      "id": 2,
-      "population": "2166708684"
-    },
-    {
-      "country": "Thailand",
-      "city": "Sukhirin",
-      "id": 3,
-      "population": "2399997247"
-    },
-    {
-      "country": "Peru",
-      "city": "Carhuac",
-      "id": 4,
-      "population": "3318796654"
-    },
-    {
-      "country": "Indonesia",
-      "city": "Bunisari",
-      "id": 5,
-      "population": "8522584125"
-    },
-    {
-      "country": "Argentina",
-      "city": "Morteros",
+      "country": "india",
+      "city": "alwar",
       "id": 6,
-      "population": "4249852873"
+      "population": "123456454"
     },
     {
       "country": "China",

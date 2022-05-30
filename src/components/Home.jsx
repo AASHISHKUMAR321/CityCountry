@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { getData, sort } from "../redux/actions";
+import { delete_Data, getData, sort } from "../redux/actions";
 import { DataGrid } from "@mui/x-data-grid";
 import DeleteIcon from "@mui/icons-material/Delete";
 import styled from "styled-components";
+import { useNavigate } from "react-router-dom";
 
 const Div = styled.div`
   width: 100%;
@@ -32,6 +33,7 @@ export const Home = () => {
     dispatch(sort(e.target.value));
   };
   //   console.log(data[0], rows);
+  const navigate = useNavigate();
 
   return (
     <Div>
@@ -69,10 +71,22 @@ export const Home = () => {
                       <td>{e.city}</td>
                       <td>{e.population}</td>
                       <td>
-                        <button>Edit</button>
+                        <button
+                          onClick={() => {
+                            navigate(`/edit/${e.id}`);
+                          }}
+                        >
+                          Edit
+                        </button>
                       </td>
                       <td>
-                        <button>Delete</button>
+                        <button
+                          onClick={() => {
+                            dispatch(delete_Data(e.id));
+                          }}
+                        >
+                          Delete
+                        </button>
                       </td>
                     </tr>
                   </tbody>

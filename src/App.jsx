@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 import styled from "@emotion/styled";
 import { AddCountry } from "./components/AddCountry";
 import { AddCity } from "./components/AddCity";
+import { Edit } from "./components/Edit";
 
 const LinkDiv = styled.div`
   width: 30%;
@@ -32,6 +33,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/add-country" element={<AddCountry />} />
         <Route path="/add-city" element={<AddCity />} />
+        <Route path="/edit/:id" element={<Edit />} />
       </Routes>
     </div>
   );
