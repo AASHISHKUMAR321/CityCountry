@@ -23,3 +23,14 @@ export const getData = () => async(dispatch) => {
 
     axios.get(`http://localhost:8080/Cities`).then(data => dispatch(addData(data.data)))
 }
+
+export const addCountry = (data) => async(dispatch) => {
+
+    axios.post(`http://localhost:8080/Countries`, data)
+
+}
+export const addCity = (data) => async(dispatch) => {
+
+    axios.post(`http://localhost:8080/Cities`, data).then(data => console.log(data))
+
+}

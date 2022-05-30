@@ -1,355 +1,330 @@
 {
-    "Countries": [
-        { "Country": "France" },
-        { "Country": "Indonesia" },
-        { "Country": "Peru" },
-        { "Country": "Indonesia" },
-        { "Country": "United States" },
-        { "Country": "Czech Republic" },
-        { "Country": "Philippines" },
-        { "Country": "Venezuela" },
-        { "Country": "Bosnia and Herzegovina" },
-        { "Country": "China" },
-        { "Country": "Sweden" },
-        { "Country": "France" },
-        { "Country": "Indonesia" },
-        { "Country": "Indonesia" },
-        { "Country": "Belarus" },
-        { "Country": "Ireland" },
-        { "Country": "Tanzania" },
-        { "Country": "Indonesia" },
-        { "Country": "Panama" },
-        { "Country": "United States" },
-        { "Country": "Indonesia" },
-        { "Country": "China" },
-        { "Country": "Russia" },
-        { "Country": "Brazil" },
-        { "Country": "Greece" },
-        { "Country": "Peru" },
-        { "Country": "Bolivia" },
-        { "Country": "Ukraine" },
-        { "Country": "Paraguay" },
-        { "Country": "Indonesia" },
-        { "Country": "Portugal" },
-        { "Country": "Poland" },
-        { "Country": "Indonesia" },
-        { "Country": "Japan" },
-        { "Country": "Poland" },
-        { "Country": "China" },
-        { "Country": "Afghanistan" },
-        { "Country": "Philippines" },
-        { "Country": "China" },
-        { "Country": "Germany" },
-        { "Country": "United States" },
-        { "Country": "Afghanistan" },
-        { "Country": "Philippines" },
-        { "Country": "Pakistan" },
-        { "Country": "Philippines" },
-        { "Country": "Argentina" },
-        { "Country": "Philippines" },
-        { "Country": "Vietnam" },
-        { "Country": "Russia" },
-        { "Country": "Indonesia" }
-    ],
-    "Cities": [{
-            "country": "Botswana",
-            "city": "Francistown",
-            "id": 1,
-            "population": "7815693121"
-        },
-        {
-            "country": "Indonesia",
-            "city": "Girsereng",
-            "id": 2,
-            "population": "2166708684"
-        },
-        {
-            "country": "Thailand",
-            "city": "Sukhirin",
-            "id": 3,
-            "population": "2399997247"
-        },
-        {
-            "country": "Peru",
-            "city": "Carhuac",
-            "id": 4,
-            "population": "3318796654"
-        },
-        {
-            "country": "Indonesia",
-            "city": "Bunisari",
-            "id": 5,
-            "population": "8522584125"
-        },
-        {
-            "country": "Argentina",
-            "city": "Morteros",
-            "id": 6,
-            "population": "4249852873"
-        },
-        {
-            "country": "China",
-            "city": "Shazhuang",
-            "id": 7,
-            "population": "3188336233"
-        },
-        {
-            "country": "Cameroon",
-            "city": "Kumba",
-            "id": 8,
-            "population": "4576180169"
-        },
-        {
-            "country": "Montenegro",
-            "city": "Spuž",
-            "id": 9,
-            "population": "8813234546"
-        },
-        {
-            "country": "China",
-            "city": "Gantang",
-            "id": 10,
-            "population": "4157648129"
-        },
-        {
-            "country": "China",
-            "city": "Yueyahe",
-            "id": 11,
-            "population": "6391485739"
-        },
-        {
-            "country": "Ireland",
-            "city": "Watergrasshill",
-            "id": 12,
-            "population": "5759455788"
-        },
-        {
-            "country": "Philippines",
-            "city": "Palma Gil",
-            "id": 13,
-            "population": "7995457669"
-        },
-        {
-            "country": "China",
-            "city": "Shatian",
-            "id": 14,
-            "population": "2341821340"
-        },
-        {
-            "country": "China",
-            "city": "Fanzhuang",
-            "id": 15,
-            "population": "5815016012"
-        },
-        {
-            "country": "Greece",
-            "city": "Karátoulas",
-            "id": 16,
-            "population": "1064223141"
-        },
-        {
-            "country": "Indonesia",
-            "city": "Wangkung",
-            "id": 17,
-            "population": "2164895231"
-        },
-        {
-            "country": "Indonesia",
-            "city": "Ili",
-            "id": 18,
-            "population": "9724594858"
-        },
-        {
-            "country": "Greece",
-            "city": "Vári",
-            "id": 19,
-            "population": "1707643474"
-        },
-        {
-            "country": "Paraguay",
-            "city": "Villa Elisa",
-            "id": 20,
-            "population": "1448427177"
-        },
-        {
-            "country": "Albania",
-            "city": "Libofshë",
-            "id": 21,
-            "population": "3697550063"
-        },
-        {
-            "country": "Finland",
-            "city": "Lumijoki",
-            "id": 22,
-            "population": "0228488826"
-        },
-        {
-            "country": "China",
-            "city": "Fengcheng",
-            "id": 23,
-            "population": "1950298736"
-        },
-        {
-            "country": "Argentina",
-            "city": "Chimbas",
-            "id": 24,
-            "population": "9216818921"
-        },
-        {
-            "country": "Portugal",
-            "city": "Ribamar",
-            "id": 25,
-            "population": "3256376010"
-        },
-        {
-            "country": "Canada",
-            "city": "Mount Pearl",
-            "id": 26,
-            "population": "8521869436"
-        },
-        {
-            "country": "Sweden",
-            "city": "Visby",
-            "id": 27,
-            "population": "2909595889"
-        },
-        {
-            "country": "China",
-            "city": "Shangma",
-            "id": 28,
-            "population": "8495427672"
-        },
-        {
-            "country": "Sweden",
-            "city": "Hägersten",
-            "id": 29,
-            "population": "0588918512"
-        },
-        {
-            "country": "South Korea",
-            "city": "Sogcho",
-            "id": 30,
-            "population": "5010676354"
-        },
-        {
-            "country": "Czech Republic",
-            "city": "Moravský Písek",
-            "id": 31,
-            "population": "2156868964"
-        },
-        {
-            "country": "Philippines",
-            "city": "Padre Burgos",
-            "id": 32,
-            "population": "1652809945"
-        },
-        {
-            "country": "China",
-            "city": "Zhuhu",
-            "id": 33,
-            "population": "5714318447"
-        },
-        {
-            "country": "Peru",
-            "city": "Cancas",
-            "id": 34,
-            "population": "3370099098"
-        },
-        {
-            "country": "Russia",
-            "city": "Buy",
-            "id": 35,
-            "population": "3463747154"
-        },
-        {
-            "country": "France",
-            "city": "Mundolsheim",
-            "id": 36,
-            "population": "3629834892"
-        },
-        {
-            "country": "Indonesia",
-            "city": "Cibeusi",
-            "id": 37,
-            "population": "4161755694"
-        },
-        {
-            "country": "France",
-            "city": "Sélestat",
-            "id": 38,
-            "population": "9690863657"
-        },
-        {
-            "country": "Czech Republic",
-            "city": "Rýmařov",
-            "id": 39,
-            "population": "8555390605"
-        },
-        {
-            "country": "Thailand",
-            "city": "Phetchabun",
-            "id": 40,
-            "population": "1534640584"
-        },
-        {
-            "country": "China",
-            "city": "Yonghe",
-            "id": 41,
-            "population": "1105817016"
-        },
-        {
-            "country": "China",
-            "city": "Xicun",
-            "id": 42,
-            "population": "8552571617"
-        },
-        {
-            "country": "Japan",
-            "city": "Uenohara",
-            "id": 43,
-            "population": "5454160865"
-        },
-        {
-            "country": "Germany",
-            "city": "Berlin",
-            "id": 44,
-            "population": "8713679279"
-        },
-        {
-            "country": "Finland",
-            "city": "Perho",
-            "id": 45,
-            "population": "8609172813"
-        },
-        {
-            "country": "Indonesia",
-            "city": "Ampelgading",
-            "id": 46,
-            "population": "2055682989"
-        },
-        {
-            "country": "China",
-            "city": "Diaoluoshan",
-            "id": 47,
-            "population": "2518972315"
-        },
-        {
-            "country": "Greece",
-            "city": "Míthymna",
-            "id": 48,
-            "population": "4262647579"
-        },
-        {
-            "country": "China",
-            "city": "Yangyuan",
-            "id": 49,
-            "population": "6349612167"
-        },
-        {
-            "country": "China",
-            "city": "Temeke",
-            "id": 50,
-            "population": "3374704174"
-        }
-    ]
+  "Countries": [
+    {
+      "Country": "Indo",
+      "id": 1
+    },
+    {
+      "Country": "india",
+      "id": 2
+    },
+    {
+      "Country": "asd",
+      "id": 3
+    },
+    {
+      "country": "india",
+      "city": "alwar",
+      "population": "1231231231",
+      "id": 4
+    }
+  ],
+  "Cities": [
+    {
+      "country": "Botswana",
+      "city": "Francistown",
+      "id": 1,
+      "population": "7815693121"
+    },
+    {
+      "country": "Indonesia",
+      "city": "Girsereng",
+      "id": 2,
+      "population": "2166708684"
+    },
+    {
+      "country": "Thailand",
+      "city": "Sukhirin",
+      "id": 3,
+      "population": "2399997247"
+    },
+    {
+      "country": "Peru",
+      "city": "Carhuac",
+      "id": 4,
+      "population": "3318796654"
+    },
+    {
+      "country": "Indonesia",
+      "city": "Bunisari",
+      "id": 5,
+      "population": "8522584125"
+    },
+    {
+      "country": "Argentina",
+      "city": "Morteros",
+      "id": 6,
+      "population": "4249852873"
+    },
+    {
+      "country": "China",
+      "city": "Shazhuang",
+      "id": 7,
+      "population": "3188336233"
+    },
+    {
+      "country": "Cameroon",
+      "city": "Kumba",
+      "id": 8,
+      "population": "4576180169"
+    },
+    {
+      "country": "Montenegro",
+      "city": "Spuž",
+      "id": 9,
+      "population": "8813234546"
+    },
+    {
+      "country": "China",
+      "city": "Gantang",
+      "id": 10,
+      "population": "4157648129"
+    },
+    {
+      "country": "China",
+      "city": "Yueyahe",
+      "id": 11,
+      "population": "6391485739"
+    },
+    {
+      "country": "Ireland",
+      "city": "Watergrasshill",
+      "id": 12,
+      "population": "5759455788"
+    },
+    {
+      "country": "Philippines",
+      "city": "Palma Gil",
+      "id": 13,
+      "population": "7995457669"
+    },
+    {
+      "country": "China",
+      "city": "Shatian",
+      "id": 14,
+      "population": "2341821340"
+    },
+    {
+      "country": "China",
+      "city": "Fanzhuang",
+      "id": 15,
+      "population": "5815016012"
+    },
+    {
+      "country": "Greece",
+      "city": "Karátoulas",
+      "id": 16,
+      "population": "1064223141"
+    },
+    {
+      "country": "Indonesia",
+      "city": "Wangkung",
+      "id": 17,
+      "population": "2164895231"
+    },
+    {
+      "country": "Indonesia",
+      "city": "Ili",
+      "id": 18,
+      "population": "9724594858"
+    },
+    {
+      "country": "Greece",
+      "city": "Vári",
+      "id": 19,
+      "population": "1707643474"
+    },
+    {
+      "country": "Paraguay",
+      "city": "Villa Elisa",
+      "id": 20,
+      "population": "1448427177"
+    },
+    {
+      "country": "Albania",
+      "city": "Libofshë",
+      "id": 21,
+      "population": "3697550063"
+    },
+    {
+      "country": "Finland",
+      "city": "Lumijoki",
+      "id": 22,
+      "population": "0228488826"
+    },
+    {
+      "country": "China",
+      "city": "Fengcheng",
+      "id": 23,
+      "population": "1950298736"
+    },
+    {
+      "country": "Argentina",
+      "city": "Chimbas",
+      "id": 24,
+      "population": "9216818921"
+    },
+    {
+      "country": "Portugal",
+      "city": "Ribamar",
+      "id": 25,
+      "population": "3256376010"
+    },
+    {
+      "country": "Canada",
+      "city": "Mount Pearl",
+      "id": 26,
+      "population": "8521869436"
+    },
+    {
+      "country": "Sweden",
+      "city": "Visby",
+      "id": 27,
+      "population": "2909595889"
+    },
+    {
+      "country": "China",
+      "city": "Shangma",
+      "id": 28,
+      "population": "8495427672"
+    },
+    {
+      "country": "Sweden",
+      "city": "Hägersten",
+      "id": 29,
+      "population": "0588918512"
+    },
+    {
+      "country": "South Korea",
+      "city": "Sogcho",
+      "id": 30,
+      "population": "5010676354"
+    },
+    {
+      "country": "Czech Republic",
+      "city": "Moravský Písek",
+      "id": 31,
+      "population": "2156868964"
+    },
+    {
+      "country": "Philippines",
+      "city": "Padre Burgos",
+      "id": 32,
+      "population": "1652809945"
+    },
+    {
+      "country": "China",
+      "city": "Zhuhu",
+      "id": 33,
+      "population": "5714318447"
+    },
+    {
+      "country": "Peru",
+      "city": "Cancas",
+      "id": 34,
+      "population": "3370099098"
+    },
+    {
+      "country": "Russia",
+      "city": "Buy",
+      "id": 35,
+      "population": "3463747154"
+    },
+    {
+      "country": "France",
+      "city": "Mundolsheim",
+      "id": 36,
+      "population": "3629834892"
+    },
+    {
+      "country": "Indonesia",
+      "city": "Cibeusi",
+      "id": 37,
+      "population": "4161755694"
+    },
+    {
+      "country": "France",
+      "city": "Sélestat",
+      "id": 38,
+      "population": "9690863657"
+    },
+    {
+      "country": "Czech Republic",
+      "city": "Rýmařov",
+      "id": 39,
+      "population": "8555390605"
+    },
+    {
+      "country": "Thailand",
+      "city": "Phetchabun",
+      "id": 40,
+      "population": "1534640584"
+    },
+    {
+      "country": "China",
+      "city": "Yonghe",
+      "id": 41,
+      "population": "1105817016"
+    },
+    {
+      "country": "China",
+      "city": "Xicun",
+      "id": 42,
+      "population": "8552571617"
+    },
+    {
+      "country": "Japan",
+      "city": "Uenohara",
+      "id": 43,
+      "population": "5454160865"
+    },
+    {
+      "country": "Germany",
+      "city": "Berlin",
+      "id": 44,
+      "population": "8713679279"
+    },
+    {
+      "country": "Finland",
+      "city": "Perho",
+      "id": 45,
+      "population": "8609172813"
+    },
+    {
+      "country": "Indonesia",
+      "city": "Ampelgading",
+      "id": 46,
+      "population": "2055682989"
+    },
+    {
+      "country": "China",
+      "city": "Diaoluoshan",
+      "id": 47,
+      "population": "2518972315"
+    },
+    {
+      "country": "Greece",
+      "city": "Míthymna",
+      "id": 48,
+      "population": "4262647579"
+    },
+    {
+      "country": "China",
+      "city": "Yangyuan",
+      "id": 49,
+      "population": "6349612167"
+    },
+    {
+      "country": "China",
+      "city": "Temeke",
+      "id": 50,
+      "population": "3374704174"
+    },
+    {
+      "country": "india",
+      "city": "alwar",
+      "population": "1231231231",
+      "id": 51
+    }
+  ]
 }
