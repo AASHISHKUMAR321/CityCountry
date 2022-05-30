@@ -5,6 +5,7 @@ import { DataGrid } from "@mui/x-data-grid";
 import DeleteIcon from "@mui/icons-material/Delete";
 import styled from "styled-components";
 import { useNavigate } from "react-router-dom";
+import EditIcon from "@mui/icons-material/Edit";
 
 const Div = styled.div`
   width: 100%;
@@ -71,22 +72,18 @@ export const Home = () => {
                       <td>{e.city}</td>
                       <td>{e.population}</td>
                       <td>
-                        <button
+                        <EditIcon
                           onClick={() => {
                             navigate(`/edit/${e.id}`);
                           }}
-                        >
-                          Edit
-                        </button>
+                        ></EditIcon>
                       </td>
                       <td>
-                        <button
+                        <DeleteIcon
                           onClick={() => {
                             dispatch(delete_Data(e.id));
                           }}
-                        >
-                          Delete
-                        </button>
+                        ></DeleteIcon>
                       </td>
                     </tr>
                   </tbody>
